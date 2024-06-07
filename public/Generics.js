@@ -4,3 +4,12 @@ const isLucky = (data) => {
 };
 console.log(isLucky("wow!"));
 console.log(isLucky(6));
+const returnResponse = (data) => {
+    return data;
+};
+console.log(returnResponse({
+    body: {
+        name: "Hafiz"
+    },
+    id: 3
+}));
